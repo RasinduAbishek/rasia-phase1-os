@@ -1,0 +1,359 @@
+{
+  "phase": {
+    "start": "2026-09-14",
+    "end": "2026-12-31",
+    "label": "RASIA MASTER PLAN \u2014 PHASE 1"
+  },
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "events": [
+    [
+      "Monday",
+      "07:30",
+      "13:30",
+      "SCHOOL",
+      "School",
+      "school"
+    ],
+    [
+      "Monday",
+      "18:00",
+      "19:30",
+      "A/L DEEP WORK",
+      "Combined Maths / Physics / Chemistry",
+      "study"
+    ],
+    [
+      "Monday",
+      "19:45",
+      "21:00",
+      "SPS OPS",
+      "SPS systems + support",
+      "sps"
+    ],
+    [
+      "Monday",
+      "21:15",
+      "22:15",
+      "RIVEX / CODING",
+      "Software engineering",
+      "tech"
+    ],
+    [
+      "Tuesday",
+      "07:00",
+      "17:30",
+      "PAPER SESSION",
+      "Paper class + travel",
+      "class"
+    ],
+    [
+      "Tuesday",
+      "19:00",
+      "20:30",
+      "PAPER ANALYSIS",
+      "Marking + mistake book",
+      "study"
+    ],
+    [
+      "Tuesday",
+      "20:45",
+      "22:00",
+      "LIGHT RECALL",
+      "Active recall",
+      "study"
+    ],
+    [
+      "Wednesday",
+      "07:30",
+      "13:30",
+      "SCHOOL",
+      "School",
+      "school"
+    ],
+    [
+      "Wednesday",
+      "18:00",
+      "19:30",
+      "A/L DEEP WORK",
+      "Weak-topic repair",
+      "study"
+    ],
+    [
+      "Wednesday",
+      "19:45",
+      "21:00",
+      "RIVEX BUILD",
+      "Coding / product work",
+      "tech"
+    ],
+    [
+      "Wednesday",
+      "21:15",
+      "22:15",
+      "SPS OPS",
+      "Digital/business support",
+      "sps"
+    ],
+    [
+      "Thursday",
+      "07:30",
+      "13:30",
+      "SCHOOL",
+      "School",
+      "school"
+    ],
+    [
+      "Thursday",
+      "14:30",
+      "18:30",
+      "PHYSICS CLASS",
+      "Physics",
+      "class"
+    ],
+    [
+      "Thursday",
+      "19:30",
+      "20:30",
+      "PHYSICS REVIEW",
+      "Same-day recall",
+      "study"
+    ],
+    [
+      "Thursday",
+      "20:45",
+      "22:00",
+      "LIGHT TASKS",
+      "Planning / coding / admin",
+      "free"
+    ],
+    [
+      "Friday",
+      "07:30",
+      "13:30",
+      "SCHOOL",
+      "School",
+      "school"
+    ],
+    [
+      "Friday",
+      "14:30",
+      "17:00",
+      "PAPER SESSION",
+      "Paper class",
+      "class"
+    ],
+    [
+      "Friday",
+      "19:00",
+      "20:00",
+      "PAPER REVIEW",
+      "Mistakes + retry",
+      "study"
+    ],
+    [
+      "Friday",
+      "20:15",
+      "21:30",
+      "A/L RECALL",
+      "Active recall",
+      "study"
+    ],
+    [
+      "Saturday",
+      "06:00",
+      "08:30",
+      "TRAVEL / PREP",
+      "Travel + preparation",
+      "travel"
+    ],
+    [
+      "Saturday",
+      "08:30",
+      "12:30",
+      "COMBINED MATHS",
+      "Combined Maths class",
+      "class"
+    ],
+    [
+      "Saturday",
+      "12:30",
+      "14:30",
+      "TRAVEL",
+      "Return travel",
+      "travel"
+    ],
+    [
+      "Saturday",
+      "17:00",
+      "18:30",
+      "A/L DEEP WORK",
+      "Weekly problem set",
+      "study"
+    ],
+    [
+      "Saturday",
+      "18:45",
+      "20:00",
+      "RIVEX BUILD",
+      "Coding / project",
+      "tech"
+    ],
+    [
+      "Saturday",
+      "20:15",
+      "21:15",
+      "SPS OPS",
+      "SPS systems",
+      "sps"
+    ],
+    [
+      "Sunday",
+      "08:00",
+      "09:30",
+      "WEEKLY RESET",
+      "Plan + weekly recall",
+      "study"
+    ],
+    [
+      "Sunday",
+      "09:45",
+      "11:30",
+      "A/L DEEP WORK",
+      "Weak-topic repair",
+      "study"
+    ],
+    [
+      "Sunday",
+      "13:30",
+      "18:00",
+      "CHEMISTRY CLASS",
+      "Chemistry",
+      "class"
+    ],
+    [
+      "Sunday",
+      "19:30",
+      "20:30",
+      "CHEMISTRY REVIEW",
+      "Same-day recall",
+      "study"
+    ],
+    [
+      "Sunday",
+      "20:45",
+      "22:00",
+      "WEEKLY REVIEW",
+      "Scores + next-week setup",
+      "study"
+    ]
+  ],
+  "free_blocks": {
+    "Monday": [
+      [
+        "15:00",
+        "18:00",
+        "Recovery / flexible free time"
+      ],
+      [
+        "22:15",
+        "23:00",
+        "Personal / wind down"
+      ]
+    ],
+    "Tuesday": [
+      [
+        "17:30",
+        "19:00",
+        "Dinner + recovery"
+      ],
+      [
+        "22:00",
+        "23:00",
+        "Personal / wind down"
+      ]
+    ],
+    "Wednesday": [
+      [
+        "15:00",
+        "18:00",
+        "Recovery / flexible free time"
+      ],
+      [
+        "22:15",
+        "23:00",
+        "Personal / wind down"
+      ]
+    ],
+    "Thursday": [
+      [
+        "13:30",
+        "14:30",
+        "Lunch / transition"
+      ],
+      [
+        "18:30",
+        "19:30",
+        "Dinner / travel"
+      ],
+      [
+        "22:00",
+        "23:00",
+        "Personal / wind down"
+      ]
+    ],
+    "Friday": [
+      [
+        "13:30",
+        "14:30",
+        "Lunch / transition"
+      ],
+      [
+        "17:00",
+        "18:30",
+        "Travel / recovery"
+      ],
+      [
+        "21:30",
+        "23:00",
+        "Recovery / personal"
+      ]
+    ],
+    "Saturday": [
+      [
+        "14:30",
+        "17:00",
+        "Recovery + flexible free time"
+      ],
+      [
+        "21:15",
+        "23:00",
+        "Personal / free"
+      ]
+    ],
+    "Sunday": [
+      [
+        "11:30",
+        "13:30",
+        "Lunch / preparation"
+      ],
+      [
+        "18:00",
+        "19:30",
+        "Travel / dinner"
+      ],
+      [
+        "22:00",
+        "23:00",
+        "Personal / wind down"
+      ]
+    ]
+  }
+}
