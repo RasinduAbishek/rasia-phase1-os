@@ -1,0 +1,32 @@
+{
+  "system": "Class \u2192 Main Note \u2192 Weekly Recall \u2192 Quiz \u2192 Mistake Book \u2192 Retry",
+  "subjects": {
+    "Combined Maths": [
+      "Class",
+      "Main note",
+      "Worked examples",
+      "Weekly recall",
+      "Timed paper",
+      "Mistake book",
+      "Retry"
+    ],
+    "Physics": [
+      "Class",
+      "Concept note",
+      "Derivations / formula map",
+      "Weekly recall",
+      "Quiz",
+      "Mistake book",
+      "Retry"
+    ],
+    "Chemistry": [
+      "Class",
+      "Main note",
+      "Reactions / concepts",
+      "Weekly recall",
+      "Quiz",
+      "Mistake book",
+      "Retry"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "phase": {
+    "name": "RASIA MASTER PLAN \u2014 PHASE 1",
+    "start": "2026-09-14",
+    "end": "2026-12-31"
+  },
+  "weekly": {
+    "Monday": {
+      "fixed": [
+        [
+          "05:00",
+          "06:30",
+          "Morning routine / travel"
+        ],
+        [
+          "07:30",
+          "13:30",
+          "School"
+        ],
+        [
+          "13:30",
+          "15:00",
+          "Travel + lunch"
+        ],
+        [
+          "18:00",
+          "19:30",
+          "A/L Deep Work"
+        ],
+        [
+          "19:45",
+          "21:00",
+          "SPS / Business"
+        ],
+        [
+          "21:15",
+          "22:15",
+          "Coding / Rivex"
+        ],
+        [
+          "22:15",
+          "23:00",
+          "Plan + wind down"
+        ]
+      ],
+      "free_hours": 7.5
+    },
+    "Tuesday": {
+      "fixed": [
+        [
+          "07:00",
+          "17:30",
+          "Paper class + travel"
+        ],
+        [
+          "18:00",
+          "19:00",
+          "Dinner / recovery"
+        ],
+        [
+          "19:00",
+          "20:30",
+          "Paper analysis"
+        ],
+        [
+          "20:45",
+          "22:00",
+          "Light A/L recall"
+        ],
+        [
+          "22:00",
+          "23:00",
+          "Wind down"
+        ]
+      ],
+      "free_hours": 6.0
+    },
+    "Wednesday": {
+      "fixed": [
+        [
+          "05:00",
+          "06:30",
+          "Morning routine / travel"
+        ],
+        [
+          "07:30",
+          "13:30",
+          "School"
+        ],
+        [
+          "13:30",
+          "15:00",
+          "Travel + lunch"
+        ],
+        [
+          "18:00",
+          "19:30",
+          "A/L Deep Work"
+        ],
+        [
+          "19:45",
+          "21:00",
+          "Coding / Rivex"
+        ],
+        [
+          "21:15",
+          "22:15",
+          "SPS"
+        ],
+        [
+          "22:15",
+          "23:00",
+          "Plan + wind down"
+        ]
+      ],
+      "free_hours": 7.5
+    },
+    "Thursday": {
+      "fixed": [
+        [
+          "05:00",
+          "06:30",
+          "Morning routine / travel"
+        ],
+        [
+          "07:30",
+          "13:30",
+          "School"
+        ],
+        [
+          "13:30",
+          "14:30",
+          "Lunch / transition"
+        ],
+        [
+          "14:30",
+          "18:30",
+          "Physics class"
+        ],
+        [
+          "18:30",
+          "19:30",
+          "Travel / dinner"
+        ],
+        [
+          "19:30",
+          "20:30",
+          "Physics review"
+        ],
+        [
+          "20:45",
+          "22:00",
+          "Light tasks"
+        ],
+        [
+          "22:00",
+          "23:00",
+          "Wind down"
+        ]
+      ],
+      "free_hours": 5.0
+    },
+    "Friday": {
+      "fixed": [
+        [
+          "05:00",
+          "06:30",
+          "Morning routine / travel"
+        ],
+        [
+          "07:30",
+          "13:30",
+          "School"
+        ],
+        [
+          "13:30",
+          "14:30",
+          "Lunch / transition"
+        ],
+        [
+          "14:30",
+          "17:00",
+          "Paper class"
+        ],
+        [
+          "17:00",
+          "18:30",
+          "Travel"
+        ],
+        [
+          "19:00",
+          "20:00",
+          "Paper review"
+        ],
+        [
+          "20:15",
+          "21:30",
+          "A/L recall"
+        ],
+        [
+          "21:30",
+          "23:00",
+          "Recovery / planning"
+        ]
+      ],
+      "free_hours": 5.5
+    },
+    "Saturday": {
+      "fixed": [
+        [
+          "06:00",
+          "08:30",
+          "Travel + preparation"
+        ],
+        [
+          "08:30",
+          "12:30",
+          "Combined Maths class"
+        ],
+        [
+          "12:30",
+          "14:30",
+          "Travel"
+        ],
+        [
+          "15:30",
+          "17:00",
+          "Recovery / lunch"
+        ],
+        [
+          "17:00",
+          "18:30",
+          "A/L Deep Work"
+        ],
+        [
+          "18:45",
+          "20:00",
+          "Coding / Rivex"
+        ],
+        [
+          "20:15",
+          "21:15",
+          "SPS"
+        ],
+        [
+          "21:15",
+          "23:00",
+          "Free / wind down"
+        ]
+      ],
+      "free_hours": 7.0
+    },
+    "Sunday": {
+      "fixed": [
+        [
+          "08:00",
+          "09:30",
+          "Weekly planning + recall"
+        ],
+        [
+          "09:45",
+          "11:30",
+          "A/L deep work"
+        ],
+        [
+          "11:30",
+          "13:00",
+          "Lunch / preparation"
+        ],
+        [
+          "13:30",
+          "18:00",
+          "Chemistry class"
+        ],
+        [
+          "18:00",
+          "19:30",
+          "Travel / dinner"
+        ],
+        [
+          "19:30",
+          "20:30",
+          "Chemistry review"
+        ],
+        [
+          "20:45",
+          "22:00",
+          "Weekly review + next week"
+        ],
+        [
+          "22:00",
+          "23:00",
+          "Wind down"
+        ]
+      ],
+      "free_hours": 7.0
+    }
+  },
+  "note": "This is a planning baseline. Exact school/travel times can be edited in the app. Sleep is deliberately not treated as disposable; aim to protect a healthy teen sleep window."
+}

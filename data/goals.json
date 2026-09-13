@@ -1,0 +1,58 @@
+[
+  {
+    "id": "g1",
+    "name": "Rs. 1M milestone",
+    "area": "Money",
+    "target": 1000000,
+    "unit": "LKR",
+    "progress": 0
+  },
+  {
+    "id": "g2",
+    "name": "Restart Rivex Tech",
+    "area": "Tech / Business",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  },
+  {
+    "id": "g3",
+    "name": "SPS efficiency rebuild",
+    "area": "Business",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  },
+  {
+    "id": "g4",
+    "name": "Elite software engineering foundation",
+    "area": "Tech",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  },
+  {
+    "id": "g5",
+    "name": "A/L performance system",
+    "area": "Study",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  },
+  {
+    "id": "g6",
+    "name": "Apps + LK simulators",
+    "area": "Projects",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  },
+  {
+    "id": "g7",
+    "name": "Fitness consistency",
+    "area": "Personal",
+    "target": 100,
+    "unit": "%",
+    "progress": 0
+  }
+]
