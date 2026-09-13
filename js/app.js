@@ -77,7 +77,7 @@ function aiPage(){
   const msgs=S.chat.length?S.chat.map((m,i)=>m.role==="proposal"
   ? `<div class="bubble ai"><b>${esc(m.text)}</b><div class="action-actions"><button class="btn primary" data-approve="${i}">APPROVE</button><button class="btn" data-reject="${i}">REJECT</button></div></div>`
   : `<div class="bubble ${m.role==="user"?"user":"ai"}">${esc(m.text)}</div>`).join(""):`<div class="bubble ai">Ayubowan Rasia 👋<br><br>I’m your Phase 1 planning AI. You can type in Sinhala, Singlish or English.<br><br>Try: <b>“ada mata monawada karanna oni?”</b> / “plan tomorrow” / “mage free time eka kohomada use karanne?”</div>`;
-  return `<div class="section-head"><div><div class="eyebrow">INTELLIGENCE LAYER</div><h1>Rasia AI</h1><p class="muted">Sinhala + English personal planner · context-aware · tool-ready.</p></div><span class="pill">${S.backendOnline?"BACKEND ONLINE":"OFFLINE FALLBACK"}</span></div>
+  return `<div class="section-head"><div><div class="eyebrow">INTELLIGENCE LAYER</div><h1>Rasia AI</h1><p class="muted">Friendly Sinhala + Singlish + English AI buddy · context-aware · tool-ready.</p></div><span class="pill">${S.backendOnline?"BACKEND ONLINE":"OFFLINE FALLBACK"}</span></div>
   <div class="chat-shell"><div class="card chat-card"><div class="chat-head"><div><b>RASIA AI CORE</b><div class="muted">${S.backendOnline?"Connected to AI backend":"Local rule engine — backend optional"}</div></div><button id="clearChat" class="btn">CLEAR</button></div><div id="chatMessages" class="chat-messages">${msgs}</div><div class="quick"><button class="btn" data-prompt="ada mata monawada karanna oni?">Today plan</button><button class="btn" data-prompt="mama tomorrow full plan ekak hadaganna oni">Tomorrow</button><button class="btn" data-prompt="mage free time blocks tika balala best work plan ekak denna">Free time</button><button class="btn" data-prompt="weekly review karanna mata help karanna">Weekly review</button></div><div class="chat-input"><textarea id="chatInput" class="field" placeholder="Type in Sinhala / Singlish / English..."></textarea><button id="sendAI" class="btn primary">SEND →</button></div></div>
   <div class="card ai-side"><h3>AI capabilities</h3><div class="ai-feature"><b>01 · Understand</b><small>Sinhala, Singlish and English intent.</small></div><div class="ai-feature"><b>02 · Context</b><small>Reads timetable, goals, study system, changes and local progress.</small></div><div class="ai-feature"><b>03 · Plan</b><small>Can propose daily/weekly study and project plans.</small></div><div class="ai-feature"><b>04 · Tools</b><small>Backend can read schedule/free time/goals and propose actions.</small></div><div class="ai-feature"><b>05 · Safety</b><small>Mutating actions use approval flow instead of silently changing your plan.</small></div><div class="ai-feature"><b>06 · Offline</b><small>Basic planner still works if backend/API is unavailable.</small></div></div></div>`;
 }
@@ -85,13 +85,20 @@ function helpPage(){return `<div class="section-head"><div><div class="eyebrow">
 function secretPage(){return `<div class="secret-banner"><div class="eyebrow">PRIVATE FEEL · NOT A SECURITY PROMISE</div><h1>SECRET BASE <span>OF RASIA</span></h1><p class="muted">A private-style command center for your Phase 1 mission. The frontend login is a gate, not enterprise authentication.</p></div><div class="grid g2"><div class="card"><h2>Base status</h2><div class="vault-row"><b>Phase</b><small>14 Sep → 31 Dec 2026</small></div><div class="vault-row"><b>Calendar</b><small>Daily / Weekly / Monthly / All Time</small></div><div class="vault-row"><b>AI</b><small>${S.backendOnline?"Backend connected":"Offline fallback"}</small></div><div class="vault-row"><b>Storage</b><small>Browser local storage for personal progress</small></div><div class="vault-row"><b>Frontend</b><small>Static + GitHub Pages compatible</small></div></div><div class="card"><h2>Base rules</h2><p class="muted">1. Protect API keys.<br>2. Do not put SPS customer data into a public frontend repo.<br>3. Use approval before AI changes the plan.<br>4. Log important timetable changes.<br>5. Keep the system useful, not overcomplicated.</p></div></div>`}
 
 function localAI(msg){
-  const m=msg.toLowerCase();
-  if(/today|ada|dan|monawada|mokakda/.test(m)) return `Today is ${dayName()} (${today()}).\n\n${S.timetable.events.filter(e=>e[0]===dayName()).map(e=>`• ${e[1]}–${e[2]} — ${e[3]}`).join("\n")}\n\nBest move: protect your fixed commitments first, then use the listed free blocks for one A/L priority + one smaller project task.`;
-  if(/tomorrow|heta/.test(m)) return `Tomorrow is ${dayName(new Date(Date.now()+86400000))}.\n\nI’d structure it as: fixed commitments → A/L deep work → short project/coding block → review. If you connect the backend, I can make a more detailed plan from the full context.`;
-  if(/free|nidahas|time block/.test(m)) return `Your weekly OS already contains explicit FREE blocks. Open “Free Time” to see them by day. Use the biggest block for the highest-impact A/L task, not random browsing.`;
-  if(/week|weekly|sathiya|review/.test(m)) return `Weekly review checklist:\n1. Check completed A/L sessions.\n2. Record mistakes from papers.\n3. Check SPS/Rivex progress.\n4. Update goal percentages.\n5. Add timetable changes.\n6. Pick next week's 3 highest-impact outcomes.`;
-  if(/help|mokakda|use/.test(m)) return `I can help with planning, study sessions, free-time allocation, goals, timetable changes and reminders. Try asking naturally in Sinhala/Singlish/English.`;
-  return `I can understand basic planning requests offline. For deeper Sinhala/Singlish reasoning, connect the Node backend and set OPENAI_API_KEY there. I will then use your timetable, goals, changes and progress as context.`;
+  const m=msg.toLowerCase().trim();
+  if(/^(hi|hello|hey|ayo|ayubowan|kohomada|කොහොමද)/.test(m))
+    return `Ayubowan bn 👋\n\nRasia AI local mode eke innawa 😄. Mata plan, study, free time, SPS/Rivex tasks wage dewal kiyanna puluwan.`;
+  if(/(thanks|thank you|tnx|thx|stuti|ස්තුති)/.test(m))
+    return `Anytime bn 😎\n\nNext task eka kiyanna, api eka set karamu.`;
+  if(/(today|ada|dawas|අද)/.test(m))
+    return `Ada ${dayName()} bn.\n\nNext FREE block eka balala highest-priority A/L task eka start karanna. Daily view eken fixed commitments check karanna.`;
+  if(/(tomorrow|heta|හෙට)/.test(m))
+    return `Heta ${dayName(new Date(Date.now()+86400000))} bn.\n\nFixed commitments → A/L priority → short project/coding block → review kiyala structure ekak hondai. Backend online unama mama full context ekka exact plan ekak hadannam.`;
+  if(/(free|nidahas|free time|වේලාව)/.test(m))
+    return `Free blocks tika already OS eke thiyenawa bn. “Free Time” page eka open karala loku block eka highest-impact task ekata use karanna. Random tasks walata yanna epa.`;
+  if(/(weekly|review|sathiya|සතිය)/.test(m))
+    return `Weekly review eka simple karamu: A/L progress → mistakes → SPS/Rivex progress → unfinished work → next-week top 3.`;
+  return `Mata basic planning/chat requests offline mode eke handle karanna puluwan bn. Full natural Sinhala/Singlish conversation + timetable/goal reasoning walata AI backend eka connect karanna one.`;
 }
 async function sendAI(msg){
   msg=msg.trim();if(!msg)return;
