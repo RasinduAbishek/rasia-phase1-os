@@ -1,0 +1,12 @@
+{
+  "name": "rasia-phase1-super-ai",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "openai": "^6.10.0"
+  }
+}

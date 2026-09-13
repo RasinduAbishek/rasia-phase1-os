@@ -1,0 +1,39 @@
+{
+  "pipeline": [
+    "Class",
+    "Main Note",
+    "Weekly Recall",
+    "Quiz / Paper",
+    "Mistake Book",
+    "Retry"
+  ],
+  "subjects": {
+    "Combined Maths": [
+      "Concept map",
+      "Worked examples",
+      "Timed problems",
+      "Weekly recall",
+      "Paper",
+      "Mistake book",
+      "Retry"
+    ],
+    "Physics": [
+      "Concept note",
+      "Derivation/formula map",
+      "Problems",
+      "Weekly recall",
+      "Quiz",
+      "Mistake book",
+      "Retry"
+    ],
+    "Chemistry": [
+      "Main note",
+      "Reaction/concept map",
+      "Recall",
+      "Quiz",
+      "Paper",
+      "Mistake book",
+      "Retry"
+    ]
+  }
+}
