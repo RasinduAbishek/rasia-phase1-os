@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RASIA // PHASE 1 OS</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="login" class="screen">
+  <div class="login-card">
+    <div class="logo">R<span>/</span>1</div>
+    <div class="eyebrow">PRIVATE WORKSPACE</div>
+    <h1>RASIA MASTER PLAN</h1>
+    <p>PHASE 1 • 14 SEP — 31 DEC 2026</p>
+    <input id="user" placeholder="Username" autocomplete="username">
+    <input id="pass" type="password" placeholder="Password" autocomplete="current-password">
+    <button id="loginBtn">ENTER SYSTEM</button>
+    <small>Client-side lock only. For real privacy, use authenticated hosting rather than GitHub Pages alone.</small>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+<header>
+  <button id="menuBtn">☰</button>
+  <div><b>RASIA // P1</b><span id="liveClock"></span></div>
+  <div class="phase">PHASE 1 • <span id="daysLeft">—</span> DAYS LEFT</div>
+</header>
+<aside id="sidebar">
+  <div class="brand">RASIA<br><span>MASTER PLAN</span></div>
+  <nav>
+    <button data-page="dashboard">⌂ Dashboard</button>
+    <button data-page="daily">◷ Daily</button>
+    <button data-page="weekly">▦ Weekly</button>
+    <button data-page="monthly">▤ Monthly</button>
+    <button data-page="free">∞ Free Time</button>
+    <button data-page="study">✦ Study OS</button>
+    <button data-page="goals">◎ Goals</button>
+    <button data-page="changes">↻ Changes</button>
+    <button data-page="reminders">⏰ Reminders</button>
+    <button data-page="settings">⚙ Settings</button>
+  </nav>
+</aside>
+
+<main id="content"></main>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
