@@ -1,0 +1,14 @@
+{
+  "username": "Rasia200907",
+  "password_sha256": "65493d59a03948e331f330bffb276342937d395078f23d5ee9880fb1d56844b5",
+  "phase_start": "2026-09-14",
+  "phase_end": "2026-12-31",
+  "app_name": "SECRET BASE OF RASIA",
+  "edition": "FREE PERSONAL EDITION",
+  "ai": {
+    "enabled": true,
+    "endpoint": "/api/chat",
+    "default_model": "gpt-5.6-luna",
+    "api_base": ""
+  }
+}

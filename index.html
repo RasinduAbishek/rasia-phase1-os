@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070914">
+<meta name="description" content="Secret Base of Rasia — Phase 1 personal operating system">
+<title>SECRET BASE OF RASIA // P1</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="login" class="login-screen">
+  <div class="stars"></div><div class="orb orb1"></div><div class="orb orb2"></div>
+  <div class="login-card">
+    <div class="secret">PRIVATE // PERSONAL // P1</div>
+    <div class="mark">R<span>/</span>1</div>
+    <div class="tiny">SECRET BASE OF RASIA</div>
+    <h1>RASIA<br><em>MASTER PLAN</em></h1>
+    <p class="login-sub">PHASE 1 · 14 SEP — 31 DEC 2026</p>
+    <div class="edition">FREE PERSONAL EDITION</div>
+    <input id="loginUser" autocomplete="username" placeholder="Username">
+    <input id="loginPass" type="password" autocomplete="current-password" placeholder="Password">
+    <button id="loginBtn" class="glow-btn">ENTER SECRET BASE <span>→</span></button>
+    <div id="loginMsg"></div>
+    <small class="login-note">Local login gate · do not store sensitive secrets in this frontend.</small>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+<header class="topbar">
+  <button id="mobileMenu" class="icon-btn">☰</button>
+  <div class="top-title"><span class="live-dot"></span> SECRET BASE / RASIA <small id="clock"></small></div>
+  <div class="top-right"><span id="phaseProgress"></span><span id="aiBadge" class="ai-badge">AI LOCAL</span><button id="logout" class="icon-btn">⎋</button></div>
+</header>
+
+<aside id="side">
+  <div class="brand">RASIA<span>//</span><small>SECRET BASE · P1</small></div>
+  <div class="navgroup">
+    <button data-page="dashboard">⌂ <span>Dashboard</span></button>
+    <button data-page="calendar">▦ <span>Calendar</span></button>
+    <button data-page="daily">◷ <span>Daily</span></button>
+    <button data-page="weekly">▤ <span>Weekly</span></button>
+    <button data-page="monthly">◫ <span>Monthly</span></button>
+    <button data-page="alltime">◉ <span>All Time</span></button>
+    <button data-page="free">∞ <span>Free Time</span></button>
+    <button data-page="study">✦ <span>Study OS</span></button>
+    <button data-page="goals">◎ <span>Goals</span></button>
+    <button data-page="reminders">⏰ <span>Reminders</span></button>
+    <button data-page="changes">↻ <span>Changes</span></button>
+    <button data-page="ai">✧ <span>Rasia AI</span><b class="ai-dot">AI</b></button>
+    <button data-page="help">?</span> <span>Help for Rasia</span></button>
+    <button data-page="secret">◆ <span>Secret Base</span></button>
+  </div>
+  <div class="side-bottom">
+    <div class="mini">PHASE 1</div><div class="progress"><i id="sideProg"></i></div>
+    <small id="sideDays"></small>
+  </div>
+</aside>
+
+<main id="main"></main>
+<div id="toast"></div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
